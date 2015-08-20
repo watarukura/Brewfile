@@ -1,0 +1,141 @@
+# Cask applications
+# Please copy these lines to your Brewfile and use with `brew file install`.
+
+# Main tap repository for brew-cask
+install caskroom/cask/brew-cask
+
+# Apps installed by Cask in brew-cask
+cask install bluestacks #/Applications/BlueStacks.app
+#cask install bluestacks #~/Applications/BlueStacks.app
+cask install clipmenu #~/Applications/ClipMenu.app
+cask install dropbox #~/Applications/Dropbox.app
+cask install google-chrome #/Applications/Google Chrome.app
+cask install google-drive #~/Applications/Google Drive.app
+cask install iterm2 #~/Applications/iTerm.app
+cask install macvim #/Applications/MacVim.app
+cask install mysqlworkbench #~/Applications/MySQLWorkbench.app
+cask install seil #/Applications/Seil.app
+cask install shiftit #~/Applications/ShiftIt.app
+cask install sourcetree #~/Applications/SourceTree.app
+cask install sublime-text #~/Applications/Sublime Text 2.app
+cask install thunderbird #/Applications/Thunderbird.app
+# There are new version for following applications.
+cask install atom #~/Applications/Atom.app
+cask install brackets #~/Applications/Brackets.app
+cask install firefox #~/Applications/Firefox.app
+cask install hyperswitch #/Applications/HyperSwitch.app
+#cask install hyperswitch #~/Applications/HyperSwitch.app
+cask install karabiner #/Applications/Karabiner.app
+cask install kindle #~/Applications/Kindle.App
+cask install virtualbox #/Applications/VirtualBox.app
+
+# Cask is found, but no applications are found (could be fonts, system settins, or installed in other directory.
+cask install sshfs
+# There are new version for following applications.
+cask install dockertoolbox
+cask install dockertoolbox
+cask install osxfuse
+cask install osxfuse
+cask install vagrant
+cask install vagrant
+
+# Apps installed directly instead of by Cask in brew-cask
+#cask install pinegrow-web-designer #/Applications/Designer.app
+#cask install powerphotos #/Applications/Photos.app
+#cask install skala-preview #/Applications/Preview.app
+#cask install unity #/Applications/Assistant.app
+
+# Casks in caskroom/fonts
+tap caskroom/fonts
+
+# Cask is found, but no applications are found (fonts, system settins, or installed in other directory.
+cask install font-inconsolata
+cask install font-inconsolata-dz
+cask install font-inconsolata-dz-for-powerline
+cask install font-inconsolata-for-powerline
+cask install font-inconsolata-g-for-powerline
+cask install font-inconsolata-lgc
+cask install font-noto-sans
+cask install font-noto-sans-japanese
+cask install font-noto-serif
+cask install font-ricty-diminished
+cask install font-roboto
+
+# Casks in caskroom/versions
+tap caskroom/versions
+
+# Cask is found, but no applications are found (fonts, system settins, or installed in other directory.
+cask install java7
+
+# Apps installed directly instead of by Cask in caskroom/versions
+#cask install microsoft-office-preview #/Applications/Microsoft Excel.app
+#cask install microsoft-office-preview #/Applications/Microsoft OneNote.app
+#cask install microsoft-office-preview #/Applications/Microsoft Outlook.app
+#cask install microsoft-office-preview #/Applications/Microsoft PowerPoint.app
+#cask install microsoft-office-preview #/Applications/Microsoft Word.app
+
+# Apps installed from AppStore
+#/Applications/Kobito.app
+#/Applications/Slack.app
+#/Applications/TweetRain.app
+#/Applications/Xcode.app
+
+# Apps installed but no casks are available
+# (System applications or directory installed.)
+#/Applications/App Store.app
+#/Applications/Automator.app
+#/Applications/Calculator.app
+#/Applications/Calendar.app
+#/Applications/Chess.app
+#/Applications/Contacts.app
+#/Applications/Dashboard.app
+#/Applications/Dictionary.app
+#/Applications/Docker
+#/Applications/DVD Player.app
+#/Applications/FaceTime.app
+#/Applications/Font Book.app
+#/Applications/Game Center.app
+#/Applications/GoogleJapaneseInput.localized
+#/Applications/iBooks.app
+#/Applications/Image Capture.app
+#/Applications/iTunes.app
+#/Applications/Launchpad.app
+#/Applications/Linguist.app
+#/Applications/Mail.app
+#/Applications/Maps.app
+#/Applications/Messages.app
+#/Applications/Microsoft Remote Desktop.app
+#/Applications/Mission Control.app
+#/Applications/Notes.app
+#/Applications/Photo Booth.app
+#/Applications/QMLViewer.app
+#/Applications/qttracereplay.app
+#/Applications/QuickTime Player.app
+#/Applications/Reminders.app
+#/Applications/Safari.app
+#/Applications/Stickies.app
+#/Applications/Symantec Solutions
+#/Applications/System Preferences.app
+#/Applications/TextEdit.app
+#/Applications/Time Machine.app
+#/Applications/WorkSpaces.app
+#/Users/kurashimawataru/Applications/Chrome Apps.localized
+#/Users/kurashimawataru/Applications/GitHub.app
+#/Applications/Utilities/Activity Monitor.app
+#/Applications/Utilities/AirPort Utility.app
+#/Applications/Utilities/Audio MIDI Setup.app
+#/Applications/Utilities/Bluetooth File Exchange.app
+#/Applications/Utilities/Boot Camp Assistant.app
+#/Applications/Utilities/ColorSync Utility.app
+#/Applications/Utilities/Console.app
+#/Applications/Utilities/Digital Color Meter.app
+#/Applications/Utilities/Disk Utility.app
+#/Applications/Utilities/Grab.app
+#/Applications/Utilities/Grapher.app
+#/Applications/Utilities/Keychain Access.app
+#/Applications/Utilities/Migration Assistant.app
+#/Applications/Utilities/Script Editor.app
+#/Applications/Utilities/System Information.app
+#/Applications/Utilities/Terminal.app
+#/Applications/Utilities/VoiceOver Utility.app
+#/Applications/Utilities/X11.app
