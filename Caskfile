@@ -33,10 +33,7 @@ cask install virtualbox #/Applications/VirtualBox.app
 cask install sshfs
 # There are new version for following applications.
 cask install dockertoolbox
-cask install dockertoolbox
 cask install osxfuse
-cask install osxfuse
-cask install vagrant
 cask install vagrant
 
 # Apps installed directly instead of by Cask in brew-cask
