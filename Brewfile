@@ -91,6 +91,7 @@ brew pcre
 brew peco
 brew phantomjs
 brew pkg-config
+brew q
 brew qt
 brew rbenv
 brew rbenv-gem-rehash
