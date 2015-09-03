@@ -9,6 +9,7 @@ cask bluestacks
 cask brackets
 cask clipmenu
 cask coteditor
+cask dash
 cask dockertoolbox
 cask dropbox
 cask firealpaca
