@@ -8,8 +8,10 @@ cask atom
 cask bluestacks
 cask brackets
 cask clipmenu
+cask coteditor
 cask dockertoolbox
 cask dropbox
+cask firealpaca
 cask firefox
 cask google-drive
 cask hyperswitch
