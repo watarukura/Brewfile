@@ -7,6 +7,7 @@ brew brew-cask
 cask atom
 cask bluestacks
 cask brackets
+cask cacoo-ninja
 cask clipmenu
 cask coteditor
 cask dash
@@ -21,12 +22,14 @@ cask karabiner
 cask kindle
 cask mysqlworkbench
 cask osxfuse
+cask phpstorm
 cask shiftit
 cask sourcetree
 cask sshfs
 cask sublime-text
 cask vagrant
 cask virtualbox
+cask webstorm
 
 ## caskroom/fonts
 tap caskroom/fonts
@@ -53,28 +56,42 @@ tap homebrew/brewdler
 tap homebrew/dupes
 brew apple-gcc42
 brew grep
+brew libiconv
+
+## homebrew/php
+tap homebrew/php
 
 ## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
+
+## yudai/gotty
+tap yudai/gotty
+brew gotty
 
 # Other Homebrew packages
 brew autoconf
 brew awscli
 brew boot2docker
 brew c-ares
+brew cmake
+brew composer
 brew coreutils
+brew cowsay
 brew d-bus
 brew docker
+brew dynamodb-local
 brew gawk
 brew geoip
 brew gettext
+brew git
 brew glib
 brew gmp
 brew gnu-sed
 brew gnutls
 brew go
 brew graphviz
+brew gs
 brew jq
 brew libevent
 brew libffi
@@ -85,15 +102,18 @@ brew libtasn1
 brew lv
 brew mecab
 brew mecab-ipadic
+brew mysql
 brew nettle
 brew nkf
 brew nodebrew
 brew oniguruma
 brew openssl
+brew pandoc
 brew pcre
 brew peco
 brew phantomjs
 brew pkg-config
+brew plantuml
 brew q
 brew qt
 brew rbenv
