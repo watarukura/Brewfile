@@ -44,6 +44,7 @@ cask font-noto-sans
 cask font-noto-serif
 cask font-ricty-diminished
 cask font-roboto
+cask font-source-han-code-jp
 
 ## caskroom/versions
 tap caskroom/versions
@@ -72,6 +73,7 @@ brew gotty
 # Other Homebrew packages
 brew autoconf
 brew awscli
+brew awsebcli
 brew boot2docker
 brew c-ares
 brew cmake
