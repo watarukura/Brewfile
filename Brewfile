@@ -5,13 +5,13 @@
 tap caskroom/cask
 brew brew-cask
 cask atom
-cask bluestacks
 cask brackets
 cask cacoo-ninja
 cask clipmenu
 cask coteditor
 cask dash
 cask dockertoolbox
+cask dragondisk
 cask dropbox
 cask firealpaca
 cask firefox
@@ -20,9 +20,7 @@ cask hyperswitch
 cask iterm2
 cask karabiner
 cask kindle
-cask mysqlworkbench
 cask osxfuse
-cask phpstorm
 cask shiftit
 cask sourcetree
 cask sshfs
@@ -74,6 +72,7 @@ brew gotty
 brew autoconf
 brew awscli
 brew awsebcli
+brew bash
 brew boot2docker
 brew c-ares
 brew cmake
@@ -116,6 +115,8 @@ brew peco
 brew phantomjs
 brew pkg-config
 brew plantuml
+brew psqlodbc
+brew pyenv-virtualenv
 brew q
 brew qt
 brew rbenv
@@ -125,14 +126,18 @@ brew readline
 brew reattach-to-user-namespace
 brew rename
 brew ruby-build
+brew sbt
+brew scalaenv
 brew shellcheck
 brew tig
 brew tmux
 brew tree
 brew vim
+brew w3m
 brew wget
 brew wireshark --with-qt
 brew xz
+brew yajl
 
 # App Store applications
 appstore Kobito
