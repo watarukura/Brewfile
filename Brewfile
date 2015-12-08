@@ -11,7 +11,6 @@ cask clipmenu
 cask coteditor
 cask dash
 cask dockertoolbox
-cask dragondisk
 cask dropbox
 cask firealpaca
 cask firefox
@@ -27,7 +26,6 @@ cask sshfs
 cask sublime-text
 cask vagrant
 cask virtualbox
-cask webstorm
 
 ## caskroom/fonts
 tap caskroom/fonts
