@@ -57,6 +57,7 @@ brew libiconv
 
 ## homebrew/php
 tap homebrew/php
+brew php56
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -68,8 +69,8 @@ brew gotty
 
 # Other Homebrew packages
 brew autoconf
+brew aws-elasticbeanstalk
 brew awscli
-brew awsebcli
 brew bash
 brew boot2docker
 brew c-ares
@@ -80,9 +81,11 @@ brew cowsay
 brew d-bus
 brew docker
 brew dynamodb-local
+brew freetype
 brew gawk
 brew geoip
 brew gettext
+brew ghostscript
 brew git
 brew glib
 brew gmp
@@ -90,7 +93,8 @@ brew gnu-sed
 brew gnutls
 brew go
 brew graphviz
-brew gs
+brew icu4c
+brew jpeg
 brew jq
 brew libevent
 brew libffi
@@ -98,6 +102,8 @@ brew libgcrypt
 brew libgpg-error
 brew libpng
 brew libtasn1
+brew libtiff
+brew little-cms2
 brew lv
 brew mecab
 brew mecab-ipadic
@@ -114,6 +120,7 @@ brew phantomjs
 brew pkg-config
 brew plantuml
 brew psqlodbc
+brew pyenv
 brew pyenv-virtualenv
 brew q
 brew qt
@@ -130,6 +137,7 @@ brew shellcheck
 brew tig
 brew tmux
 brew tree
+brew unixodbc
 brew vim
 brew w3m
 brew wget
