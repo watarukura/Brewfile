@@ -4,6 +4,8 @@
 tap argon/mas
 brew mas
 
+tap caius/jo
+
 tap caskroom/cask
 brew brew-cask
 cask atom
@@ -36,7 +38,6 @@ cask font-inconsolata-for-powerline
 cask font-inconsolata-g-for-powerline
 cask font-inconsolata-lgc
 cask font-inconsolata
-cask font-noto-sans-japanese
 cask font-noto-sans
 cask font-noto-serif
 cask font-ricty-diminished
@@ -92,6 +93,7 @@ brew gnutls
 brew go
 brew graphviz
 brew icu4c
+brew jo
 brew jpeg
 brew jq
 brew libevent
@@ -133,6 +135,7 @@ brew ruby-build
 brew sbt
 brew scalaenv
 brew shellcheck
+brew terminal-notifier
 brew tig
 brew tmux
 brew tree
